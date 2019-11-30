@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18242" started-at="2019-11-29T18:34:43Z" finished-at="2019-11-29T18:35:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18242" started-at="2019-11-29T18:34:43Z" finished-at="2019-11-29T18:35:01Z">
+      <class name="Practise_selenium.Facebook_Page_Verfication">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:Practise_selenium.Facebook_Page_Verfication@68c4039c]" name="beforeclass" is-config="true" duration-ms="325" started-at="2019-11-29T18:34:43Z" finished-at="2019-11-29T18:34:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="browserlaunch_method()[pri:0, instance:Practise_selenium.Facebook_Page_Verfication@68c4039c]" name="browserlaunch_method" is-config="true" duration-ms="15081" started-at="2019-11-29T18:34:43Z" finished-at="2019-11-29T18:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch_method -->
+        <test-method status="PASS" signature="titel_verfication_page()[pri:0, instance:Practise_selenium.Facebook_Page_Verfication@68c4039c]" name="titel_verfication_page" duration-ms="22" started-at="2019-11-29T18:34:58Z" finished-at="2019-11-29T18:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titel_verfication_page -->
+        <test-method status="PASS" signature="teardown_method()[pri:0, instance:Practise_selenium.Facebook_Page_Verfication@68c4039c]" name="teardown_method" is-config="true" duration-ms="2770" started-at="2019-11-29T18:34:58Z" finished-at="2019-11-29T18:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown_method -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:Practise_selenium.Facebook_Page_Verfication@68c4039c]" name="afterclass" is-config="true" duration-ms="4" started-at="2019-11-29T18:35:01Z" finished-at="2019-11-29T18:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- Practise_selenium.Facebook_Page_Verfication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

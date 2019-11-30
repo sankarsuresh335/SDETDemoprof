@@ -5,13 +5,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class GmailVerfication_pages {
+import Baseproperties.Base_properties;
+
+public class GmailVerfication_pages  {
 	
 	
 	public WebDriver driver;
 	
 	
 	public void Launchbrowser() {
+		
+		//test.info("going to launch browerser");
 		
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		driver = new ChromeDriver();
@@ -20,6 +24,8 @@ public class GmailVerfication_pages {
 	}
 	
 	public void singinmethod() {
+		
+		//test.info("going to launch browerser");
 		
 		WebElement emailID=driver.findElement(By.id("identifierId"));
 		
