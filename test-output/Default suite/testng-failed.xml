@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practise_selenium.Facebook_Page_Verfication">
+      <class name="Actions_Demo.Assertion_demo">
         <methods>
-          <include name="teardown_method"/>
-          <include name="titel_verfication_page"/>
-          <include name="beforeclass"/>
-          <include name="afterclass"/>
-          <include name="browserlaunch_method"/>
+          <include name="demotest_assertes"/>
         </methods>
-      </class> <!-- Practise_selenium.Facebook_Page_Verfication -->
+      </class> <!-- Actions_Demo.Assertion_demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

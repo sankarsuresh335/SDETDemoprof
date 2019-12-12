@@ -12,23 +12,23 @@ import org.testng.annotations.Test;
 
 import Baseproperties.Base_properties;
 
-public class Facebook_Page_Verfication extends Base_properties  {
+public class Facebook_Page_Verfication extends Base_properties {
 
 	public WebDriver driver;
-	
-	Base_properties base=new Base_properties();
-	
+
+	Base_properties base = new Base_properties();
+
 	@BeforeMethod
 	public void browserlaunch_method() {
-		
-		
+
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://en-gb.facebook.com/");
-		
+
 		driver.manage().window().maximize();
 
 	}
+
 	@Test
 	public void titel_verfication_page() {
 
@@ -44,7 +44,7 @@ public class Facebook_Page_Verfication extends Base_properties  {
 		}
 
 	}
-	
+
 	@AfterMethod
 	public void teardown_method() throws InterruptedException {
 
@@ -53,5 +53,4 @@ public class Facebook_Page_Verfication extends Base_properties  {
 
 	}
 
-	
 }
